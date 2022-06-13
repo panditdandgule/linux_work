@@ -1,0 +1,50 @@
+Create empty directory
+	Example 1) mkdir dir_name
+			2) mkdir dir1 dir2   #it will create two dirctories
+			3) mkdir "dir1 dir2"  #it will create one dirtory
+			
+			
+Copy file form one locaiton to another
+
+$cp filename destination_path
+Example cp abc.txt /folder1
+
+Move file from one location to another
+
+$mv filename destination_path
+
+Rename folder name
+
+$mv old_folder_name  new_folder_name
+
+Delete folder
+$rmdir folder_name
+
+How to delete data contains folder
+$rm -rf folder_name #'rf' means recursive force
+
+#How to remove file
+$rm file_name
+
+#How to create multiple files
+touch a.txt b.txt c.txt d.txt
+
+#How to copy or move multiple files with same extensions
+
+cp *.txt destination_path
+mv *.txt destination_path
+
+#How to display all information
+ls -all
+
+
+#how to remove all same extensions at a time
+
+$rm *.txt
+$rmdir folder_name
+
+#How to move diffrent extensions files from same time
+mv file1.txt a.zip z.dat destination_path
+
+#How to display tree structure 
+$tree

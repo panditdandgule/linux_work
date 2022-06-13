@@ -1,0 +1,20 @@
+What is path?
+path is a file
+
+$pwd - #this will display present working directory
+
+What is absolut path?
+/home  #complete path or exact path
+
+What i relative path?
+$cd pandit/ 		#this is relative path
+
+In Linux command line interface is case sensitive
+
+All commands should be lower case letter only.
+
+#Below command will show you whatever you did in terminal
+$history
+
+#Use below command to clear history
+$history -c

@@ -1,0 +1,126 @@
+$date #show current date and time
+
+$date +%D #customize your date
+
+$date +%D-%M-%Y  #customize your date
+
+$touch file_name_`%d-%M-%Y`  #While creating append date
+
+$touch file file1 file2   #using this commmand create one file or multiple file
+
+$touch text(1..100).txt   #create 100 text file
+
+$cat file        #To see file contents using cat command
+
+$cat > file				#write file 
+
+$cat >> file          #append file contents
+
+$cat -n file 		#To display the line numbers in file but file can't modify anything
+
+$cat -b file        #It will remove empty line numbers
+
+$cp Source destination 
+
+$cp filename destination
+
+$cp *.txt destination
+
+$ls -ltr      #Check last modified files
+
+$cp -pv filename destination/   #it will copy file with old date and time format(pv means previous version)
+
+$cp -Rv  path
+
+$mkdir -p /pandit/a/b/c/d/e    #You can create multiple directory
+
+$mv  filename dir_name			#This command is used to move file from one location to another
+
+$mv  old_file	new_file		#Rename file oldname to newname
+
+$rmdir -p /dir1/dir2			#Delete multiple parent directories
+
+$rm -f filename					#Forcebly delete file without permission
+
+$rmdir -f dirname				#forcebly delete dir1/dir2
+
+$cd dirname						#change directory
+
+$cd ~							#dirctly go homepath
+
+$cd -							#directly one step back
+
+$cd .							#current directory
+
+$cd ..							#directly one step back
+
+$ls /dir/dir1/dir2				#It will list all files and directory
+
+$ls -l 							#It will display long list with all permission dates etc
+
+$ls -d 	/dirname				#it will display only directory details
+
+$ls -m /dir/dir1				#it will seprate comma list
+
+$df	-h						 	#show disk partition
+
+$df -T  						#It will show current type system
+
+$pwd							#Present working directory
+
+$more /dir/dir/					#Read log files
+
+$cat /dir/dir | more			#Read log press down arrow key to read line by line
+
+$who 							#Who is currently login in 
+
+$who -d
+
+$who -r
+
+$who -H
+
+$who -a
+
+$w
+
+$clear						#clear screen
+
+$ps 						#List out of process
+
+$ps -aux					#Check in detail what memory utilizing, pid etc
+
+$ps -U usr_name				#It will display how many users running in this processes
+
+$chmod						#changing permission
+
+$chmod u+rwx filename		#change user permission like this
+$chmod g+rwx filename		#change group permissions
+
+$chown usrname:{newownername} filename	#change ownership of file
+
+$chgrp usrname	filename	#change group name
+
+$du -sh /dirname/*			#show you directory size
+
+$tar -cvzf filename.tar.gz destination_name  #create zip file
+
+$du -sh filename.tar.gz 	#Check zip file size
+
+$tar -xvf filename.tar.gz    #extract files
+
+$scp filename.tar.gz servername:/path  #copy file from one server to other server
+
+Example $scp test.txt root@192.168.2.140:/opt/
+
+$find /dirname -iname filename 		#find filename
+
+$locate filename 					#find filename where located
+
+
+
+
+
+
+
+

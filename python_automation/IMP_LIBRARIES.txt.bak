@@ -1,0 +1,36 @@
+glob-https://nagasudhir.blogspot.com/2020/05/iterate-through-files-inside-folder.html
+
+sys-https://www.geeksforgeeks.org/python-sys-module/
+
+os-https://www.pythonforbeginners.com/os/pythons-os-module
+
+argparse-https://www.golinuxcloud.com/python-argparse/
+
+shutil-https://www.pythonpool.com/python-shutil/
+
+psutil -https://www.geeksforgeeks.org/psutil-module-in-python/
+
+
+
+subprocess -https://geekflare.com/learn-python-subprocess/#:~:text=%20What%20is%20a%20Subprocess%20in%20Python%3F%20,with%20python%20and%20get%20the%20output...%20More%20
+
+zipfile -https://pythongeeks.org/python-zip-zipping-files-with-python/#:~:text=%20Methods%20of%20Python%20ZipFile%20Object%20%201,need%20to%20pass%20a%20string%20containing...%20More%20
+
+time-https://www.geeksforgeeks.org/python-time-module/
+
+platform-https://www.geeksforgeeks.org/platform-module-in-python/
+
+datetime -https://www.geeksforgeeks.org/python-datetime-module/
+
+pathlib -https://www.freecodecamp.org/news/how-to-use-pathlib-module-in-python/
+
+re -https://www.guru99.com/python-regular-expressions-complete-tutorial.html#:~:text=%20Regular%20Expression%20%28RE%29%20Syntax%20%201%20%E2%80%9Cre%E2%80%9D,large%20amount%20of%20data%20from%20websites%29%20More%20
+
+configparser -https://www.pythonforbeginners.com/code-snippets-source-code/how-to-use-configparser-in-python
+
+tempfile -https://www.geeksforgeeks.org/python-tempfile-module/
+
+fabric -https://www.pythonforbeginners.com/systems-programming/how-to-use-fabric-in-python
+
+
+paramiko -https://www.linode.com/docs/guides/use-paramiko-python-to-ssh-into-a-server/

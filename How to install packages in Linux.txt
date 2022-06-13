@@ -1,0 +1,11 @@
+What is packages?
+	Download packages through terminal and install
+	
+Install software(packages) using yum
+
+$yum install vim
+
+$systemctl status sshd
+
+Check ip address
+$ip addr

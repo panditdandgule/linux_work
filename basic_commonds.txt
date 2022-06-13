@@ -1,0 +1,66 @@
+$whoami #displaying which user is active
+
+$who   #displaying which user active + extra
+
+$users  #which users exist it will displaying
+
+$uname -r  #diplay whole architecture of linux '-r' means recursive
+
+$uname -a   #diplay whole information
+
+$pwd 		#diplay present working directory
+
+$ls			#display all files
+
+$ls -a       #display all hidden files
+
+$ls -all		#display all information
+
+
+
+$man 		#this command helps us to display paramter for particular command
+Example $man -ls
+
+$clear		#this command will clear screen
+
+#While changing directory(this is casesensitive)
+$cd			#This command is used change directory
+
+$cd ..		#This will go one step backword
+
+$ifconfig   #this diplay ip address
+
+
+#how to update upgrade
+
+$sudo apt-get install upgrade
+
+$touch abc.txt   #this command is used create  a file.
+
+#How to write data in file
+
+$echo "my name is pandit" > file.txt  #this command will write data into the file
+
+#display contents from file
+$cat file.txt
+
+$type > filename		#you can create new file using this command also
+
+$cal 		#this command is used diplay calender
+
+$date 		#this command is used diplay date and time
+
+$lsblk		#this command will diplay partition directory
+
+$df 		#It will display disk space
+
+$ps 		#this will display process status
+
+$top 		#this will display how many tasks running.
+
+$kill {process_id}  #this command is used kill that process
+
+$shutdown now		#System will shutdown now
+
+$shutdown now -r 	#System will reboot now
+

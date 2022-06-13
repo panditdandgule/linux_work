@@ -1,0 +1,22 @@
+user group other
+---  ---    ---
+rwx	  rwx	rwx
+
+read    -1
+write   -2
+execute -4
+
+How to add permission to file
+chmod 776 file_name
+
+chmod 777 folder_name
+
+How to remove permission
+chmod -rw file_name
+
+How to add permission using letter
+
+chmod +r file_name or folder_name  #adding permission 
+chmod -r file_name or folder_name  #Removing permission
+
+
